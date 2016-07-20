@@ -1,0 +1,20 @@
+0 @start
+1 NOP	:111
+2 NOP	:222
+3 JMP init	:333
+4 @write
+5 NOP	:333
+6 NOP	:444
+7 @init
+8 NOP	:555
+9 JNI 2 write	:666
+10 NOP	:777
+11 NOP	:888
+12 JSR read	:999
+13 NOP	:000
+14 NOP	:111
+15 OUT	:222
+16 @read
+17 NOP	:333
+18 NOP	:444
+19 RTN	:555

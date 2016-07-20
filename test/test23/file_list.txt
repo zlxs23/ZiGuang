@@ -1,0 +1,1 @@
+('F:/Save\\.idea', ['dictionaries'], ['codeStyleSettings.xml', 'encodings.xml', 'misc.xml', 'modules.xml', 'Save.iml', 'vcs.xml', 'workspace.xml'])
