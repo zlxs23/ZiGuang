@@ -1,0 +1,33 @@
+链表
+二分查找
+--------------------------------------------------------
+
+列表解析 []
+生成器表达式 ()
+字典推导 {}
+
+多线程限制
+	多线程有个 global interpreter lock (任意时刻只能有一个线程使用解释器 跟单 cpu 跑多个程序一个道理 大家轮着用 "并发" not '并行')
+多进程间共享数据
+	可使用包 multiprocessing.Value and multiprocessing.Array
+
+内存管理
+	应用 内存池 (memory pool) 机制 == (Pymalloc{π马拉克})
+	用于管理对小块内存的申请和释放n
+	
+--------------------------------------------------------
+云计算
+
+IaaS
+Infrastructure as a Service
+基础设施 (最下端)
+
+PaaS
+Platform as a Service
+平台 (中间)
+
+SaaS
+Software as a Service
+软件 (顶端)
+
+stay hungry stay foolish
